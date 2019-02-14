@@ -21,5 +21,14 @@
   },
   "dependencies": {
     "babel-plugin-transform-runtime": "^6.23.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nianguowei/vue-print-qj.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/nianguowei/vue-print-qj/issues"
+  },
+  "homepage": "https://github.com/nianguowei/vue-print-qj#readme"
 }
