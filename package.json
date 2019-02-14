@@ -1,6 +1,6 @@
 {
   "name": "vue-print-qj",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "修改了vue-print-nb的打印选择框的问题",
   "main": "index.js",
   "directories": {
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
