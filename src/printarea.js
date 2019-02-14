@@ -97,8 +97,12 @@ export default class {
         typeInput = item.tagName === 'SELECT' ? 'select' : item.tagName === 'TEXTAREA' ? 'textarea' : '';
       }
       if (typeInput === 'radio' || typeInput === 'checkbox') {
-
-        item.checked && copiedInput.setAttribute('checked', item.checked);
+        if (item.checked) {
+          copiedInput.setAttribute('checked', item.checked);
+          copiedInput.setAttribute('class', 'dui')
+        } else {
+          copiedInput.setAttribute('class', 'cuo')
+        }
 
       } else if (typeInput === 'text' || typeInput === '') {
         copiedInput.value = item.value;
