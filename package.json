@@ -1,8 +1,8 @@
 {
   "name": "vue-print-qj",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "这个项目是从vue-print-nb down下来的一个项目，修改了里面关于checkebox和radio的checked属性",
-  "main": "index.es5.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
@@ -11,10 +11,6 @@
     "index": "babel index.js --out-file index.es5.js",
     "prepublish": "npm run compile & npm run index",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nianguowei/vue-print-qj.git"
   },
   "author": "",
   "license": "ISC",
