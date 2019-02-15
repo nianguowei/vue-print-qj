@@ -1,8 +1,8 @@
 {
   "name": "vue-print-qj",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "这个项目是从vue-print-nb down下来的一个项目，修改了里面关于checkebox和radio的checked属性",
-  "main": "index.js",
+  "main": "index.es5.js",
   "directories": {
     "lib": "lib"
   },
