@@ -94,7 +94,7 @@ export default class {
       let typeInput = item.getAttribute('type');
       let copiedInput = copiedInputs[i];
       if (typeInput === undefined) {
-        typeInput = item.tagName === 'SELECT' ? 'select' : item.tagName === 'TEXTAREA' ? 'textarea' : '';
+        typeInput = item.tagName === 'SELECT' ? 'select-one' : item.tagName === 'TEXTAREA' ? 'textarea' : '';
       }
       if (typeInput === 'radio' || typeInput === 'checkbox') {
         if (item.checked) {
@@ -107,7 +107,7 @@ export default class {
       } else if (typeInput === 'text' || typeInput === '') {
         copiedInput.value = item.value;
         copiedInput.setAttribute('value', item.value);
-      } else if (typeInput === 'select') {
+      } else if (typeInput === 'select-one') {
         copiedInput.querySelectorAll('option').forEach((op, b) => {
           if (op.selected) {
             op.setAttribute('selected', true);
