@@ -110,7 +110,7 @@ export default class {
       } else if (typeInput === 'select-one') {
         copiedInput.querySelectorAll('option').forEach((op, b) => {
           if (op.selected) {
-            op.setAttribute('selected', true);
+            op.setAttribute('selected', 'selected');
           };
         });
       } else if (typeInput === 'textarea') {
